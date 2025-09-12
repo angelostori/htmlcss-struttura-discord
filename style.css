@@ -9,14 +9,40 @@ body{
     font-style: helvetica, sans-serif, arial;
 }
 
+main{
+    width: 80%;
+    margin: 0 10%;
+}
+
+button{
+    padding: 5px;
+    border-radius: 20%;
+}
+
 .container{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid;
-    
-    
-    
+    border: 2px solid;   
+}
+
+.vert_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        margin-top: 3rem;
+    }
+
+    p{
+        margin: 3rem 6rem 1rem 6rem;
+
+    }
+
+    button{
+        margin-bottom: 3rem;
+    }
 }
 
 #h_links a{
