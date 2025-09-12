@@ -55,3 +55,31 @@ button{
     display: flex;
     flex-direction: column;
 }
+
+.footer_top{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.first_column h3{
+    margin-bottom: 10px;
+}
+
+.footer_column a{
+    text-decoration: none;
+}
+
+footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
