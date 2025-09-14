@@ -5,36 +5,6 @@
     box-sizing: border-box;
 }
 
-/*debug*/
-.debug header {
-            height: 50px;
-            background-color: blue;
-        }
-
-        .debug * {
-            border: 1px dashed;
-        }
-
-        .debug main {
-            height: 450px;
-            background-color: pink;
-        }
-
-        .debug .vert_container {
-            background-color: yellowgreen;
-        }
-
-        .debug #middle_articles {
-            background-color: gold;
-        }
-
-        .debug footer{
-            background-color: crimson;
-        }
-
-        .debug .img_box{
-            background-color: khaki;
-        }
 /*base*/
 body{
     min-width: 1024px;
@@ -60,22 +30,13 @@ button{
     justify-content: space-between;   
 }
 
-/*colonne di testo*/
-.container_column{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-}
-/*box immagini*/
-.img_box{
-    width: 200px;
-    height: 200px;
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*header*/
+#h_links a{
+        margin: 0 15px;
+        color: white;
+        text-decoration: none;
+    }
+
 /*sezione main*/
 .vert_container{
     display: flex;
@@ -96,11 +57,22 @@ button{
     margin: 0 10px 3rem 10px;
 }
 
-#h_links a{
-        margin: 0 15px;
-        color: white;
-        text-decoration: none;
-    }
+/*colonne di testo*/
+.container_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+/*box immagini*/
+.img_box{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*FOOTER*/
 .footer_top{
@@ -138,4 +110,35 @@ footer{
     flex-direction: column;
     margin-top: 40px;
 }
+
+/*debug*/
+.debug header {
+            height: 50px;
+            background-color: blue;
+        }
+
+        .debug * {
+            border: 1px dashed;
+        }
+
+        .debug main {
+            min-height: 450px;
+            background-color: pink;
+        }
+
+        .debug .vert_container {
+            background-color: yellowgreen;
+        }
+
+        .debug #middle_articles {
+            background-color: gold;
+        }
+
+        .debug footer{
+            background-color: crimson;
+        }
+
+        .debug .img_box{
+            background-color: khaki;
+        }
 
