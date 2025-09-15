@@ -111,6 +111,10 @@ footer{
     margin-top: 40px;
 }
 
+hr{
+    border-color: white;
+}
+
 /*debug*/
 .debug header {
             height: 50px;
